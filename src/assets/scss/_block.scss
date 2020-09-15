@@ -1,0 +1,43 @@
+.block-three{
+  width: 320px;
+  height: 280px;
+}
+
+.block-headline-title{
+  width: 100%;
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.1));
+  @include blocksTitle();
+  .content{
+    background-color: white;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 0px 0px 6px 6px;
+    padding: 20px;
+  }
+}
+
+.small-block{
+  width: 320px;
+  height: 280px;
+  @include blocksTitle();
+  .content{
+    background-color: white;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 0px 0px 6px 6px;
+  }
+  .more{
+    padding: 10px 22px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #DDDDDD;
+    color: #FF4C00;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    .arrow{
+      margin-left: 20px;
+      color: #FF4C00 !important;
+    }
+  }
+}

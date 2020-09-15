@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-import questionmark from '../../../../assets/img/question-mark-circle.svg'
+import questionmark from '../../../../assets/img/sidebar/question-mark-circle.svg'
 
 const Item = (props) => {
   return(
