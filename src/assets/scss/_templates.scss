@@ -31,3 +31,15 @@
     }
   }
 }
+
+@mixin line {
+  height: 26px;
+  width: 2.64px;
+  border-radius: 6px;
+  margin-right: 6px;
+}
+
+@mixin date {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+}
