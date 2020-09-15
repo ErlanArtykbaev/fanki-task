@@ -1,0 +1,75 @@
+header{
+  box-sizing: border-box;
+  position: fixed;
+  height: 56px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  .contents{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1200px;
+    .right{
+      display: flex;
+    }
+    .logo-link{
+      height: 56px;
+      @include flexCenter();
+    }
+    .box-notifications{
+      border-left: 1px solid #DDDDDD;
+      height: 56px;
+      width: 212px;
+      @include flexCenter();
+      .notifications{
+        display: flex;
+        align-items: center;
+        background: #F8F8F8;
+        border: 1px solid #DDDDDD;
+        box-sizing: border-box;
+        border-radius: 6px;
+        padding: 2px 12px;
+        .bell{
+          width: 32px;
+          height: 32px;
+          color: #959595 !important;
+        }
+        p{
+          font-size: 14px;
+          font-weight: bold;
+          color: #959595;
+          padding: 0;
+          margin: 0;
+        }
+      }
+    }
+    .user{
+      display: flex;
+      width: 282px;
+      justify-content: space-evenly;
+      align-items: center;
+      border-left: 1px solid #DDDDDD;
+      .name-position{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        .name{
+          font-weight: bold;
+        }
+        .position{
+          line-height: 17px;
+          text-align: right;
+          color: #959595;
+        }
+      }
+      .avatar{
+        width: 36px;
+        .lion{
+          width: 100%;
+        }
+      }
+    }
+  }
+}

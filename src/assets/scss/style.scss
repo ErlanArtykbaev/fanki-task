@@ -1,0 +1,15 @@
+@import './initial';
+@import './templates';
+@import './variables';
+@import './sidebar';
+@import './header';
+
+.app{
+  display: flex;
+  flex-direction: column;
+  .sidebar-pages{
+    width: 1200px;
+    margin: auto;
+    
+  }
+}
