@@ -11,7 +11,11 @@ const Item = (props) => {
         <p>
           {props.title}
         </p>
-        <img style={{display: props.class.includes('active') ? 'block' : 'none'}} src={questionmark} />
+        <img 
+          style={{
+            display: props.class.includes('active') ? 'block' : 'none'
+          }} 
+          src={questionmark} />
       </div>
     </NavLink>
   )
