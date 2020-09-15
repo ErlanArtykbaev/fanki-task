@@ -6,7 +6,7 @@ import questionmark from '../../../../assets/img/sidebar/question-mark-circle.sv
 const Item = (props) => {
   return(
     <NavLink to={props.to} className={props.class}>
-      <img src={props.icon} />
+      <img src={props.icon} alt='icon' />
       <div className='to-questionmark'>
         <p>
           {props.title}
@@ -15,6 +15,7 @@ const Item = (props) => {
           style={{
             display: props.class.includes('active') ? 'block' : 'none'
           }} 
+          alt='questionmark'
           src={questionmark} />
       </div>
     </NavLink>

@@ -15,7 +15,7 @@ const User = () => {
         </div>
       </div>
       <div className='avatar'>
-        <img src={lion} className='lion' />
+        <img src={lion} className='lion' alt='lion' />
       </div>
       <ExpandMoreRoundedIcon className='more' />
     </div>

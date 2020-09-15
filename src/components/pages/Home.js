@@ -1,5 +1,6 @@
 import React from 'react'
 import Block from '../reusable/blocks/Block'
+import Tabs from '../../containers/Tabs'
 
 const Home = () => {
   return(
@@ -8,7 +9,11 @@ const Home = () => {
         title='Headline title'
         count='Notification_count'
         class='block-headline-title'>
-        heheh
+        <Tabs >
+          <div label='Сегодня, 20 авг'>ahahhah</div>
+          <div label='Завтра, 21 авг'>bababab</div>
+          <div label='Неделя'>cacaca</div>
+        </Tabs>
       </Block>
       <div className='three-blocks'>
         <Block 
