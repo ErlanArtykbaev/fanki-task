@@ -1,6 +1,7 @@
 import React from 'react'
 import Block from '../reusable/blocks/Block'
 import Tabs from '../../containers/Tabs'
+import FilterStaff from '../../containers/FilterStaff'
 
 const Home = () => {
   return(
@@ -10,7 +11,9 @@ const Home = () => {
         count='Notification_count'
         class='block-headline-title'>
         <Tabs >
-          <div label='Сегодня, 20 авг'>ahahhah</div>
+          <div label='Сегодня, 20 авг'>
+            <FilterStaff />
+          </div>
           <div label='Завтра, 21 авг'>bababab</div>
           <div label='Неделя'>cacaca</div>
         </Tabs>

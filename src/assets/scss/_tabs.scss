@@ -31,3 +31,40 @@
   }
 
 }
+
+.filter-staff{
+  .filters{
+    display: flex;
+    justify-content: space-evenly;
+    .filter{
+      box-sizing: border-box;
+      width: 220px;
+      height: 36px;
+      padding: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #F8F8F8;
+      border-radius: 6px;
+      .type{
+        @include flexCenter();
+      }
+      .green{
+        height: 26px;
+        width: 2.64px;
+        background-color: green;
+        border-radius: 6px;
+        margin-right: 6px;
+      }
+      .count{
+        margin-right: 6px;
+        color: #616061;
+      }
+    }
+  }
+  .filters-content{
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+  }
+}
