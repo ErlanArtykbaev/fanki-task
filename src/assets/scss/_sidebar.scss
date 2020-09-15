@@ -3,7 +3,46 @@
   box-sizing: border-box;
   position: fixed;
   top: 76px;
+  .company-name{
+    display: flex;
+    align-items: center;
+    p{
+      text-transform: uppercase;
+    }
+    .more{
+      width: 24px !important;
+      margin-left: 10px;
+    }
+  }
   .item{
+    height: 36px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
     padding: 7px 6px;
+    text-decoration: none;
+    color: #1D1C1D;
+    img{
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+    .to-questionmark{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+    &.active{
+      background-color: #FF4C00;
+      border-radius: 8px;
+      color: white;
+      p{
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
   }
 }
