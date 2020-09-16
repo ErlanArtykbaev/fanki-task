@@ -6,6 +6,8 @@ import FilterStaff from '../../containers/FilterStaff'
 import right from '../../assets/img/chevron-right.svg'
 import left from '../../assets/img/chevron-left.svg'
 import book from '../../assets/img/image-8.svg'
+import EmployeeNotification from '../reusable/notification-employee/EmployeeNotification'
+import NewsSample from '../reusable/news-sample/NewsSample'
 
 const Home = () => {
   return(
@@ -101,16 +103,50 @@ const Home = () => {
         <Block 
           title='Водопад событий'
           count='1'
-          more='Водопад событий'
           class='news'>
-            news
+          <div className='notifications-unread'>
+            <div className='unread-block'>
+              <span className='unread-title'>Новое</span>
+            </div>
+            <NewsSample 
+              name='Company Sample Name'
+              time='Сегодня, 10:50'
+              text='Текст объявления, который написан от лица компании.'
+              class='red'/>
+            <NewsSample 
+              name='Калинина Оксана'
+              time='Сегодня, 09:20'
+              text='Текст объявления, который написан от лица сотрудника.'
+              class='blue'/>
+          </div>
+          <div className='notifications-yesterday'>
+            <div className='yesterday-block'>
+              <span className='yesterday-title'>Вчера</span>
+            </div>
+            <NewsSample 
+              name='Калинина Оксана'
+              time='Сегодня, 09:20'
+              text='Текст объявления, который написан от лица сотрудника.'
+              class='blue'/>
+          </div>
         </Block>
         <Block 
           title='Уведомления'
           count='1'
           more='Уведомленя'
           class='notifications-block'>
-            notifications
+          <EmployeeNotification
+            time='19:00'
+            did='назначает вам задачу'
+            task='Подготовить обновлённую презентацию разработанного продукта'
+            name='Владимиров Владимир' />
+          <div className='horizontal-line'></div>
+          <EmployeeNotification
+            time='19:00'
+            did='назначает вам задачу'
+            task='Подготовить обновлённую презентацию разработанного продукта'
+            name='Владимиров Владимир' />
+
         </Block>
 
       </div>

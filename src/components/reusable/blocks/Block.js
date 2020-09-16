@@ -16,7 +16,8 @@ const Block = (props) => {
         props.class!=='block-headline-title' ? 
         <div className='more'>
           {props.more}
-          <ArrowRightAltOutlinedIcon className='arrow' />
+
+          {props.class !== 'news' ? <ArrowRightAltOutlinedIcon className='arrow' /> : null}
         </div> : null
       }
     </div>

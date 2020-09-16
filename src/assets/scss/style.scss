@@ -6,6 +6,7 @@
 @import './block';
 @import './home';
 @import './tabs';
+@import './news-template';
 
 .app{
   .sidebar-pages{
@@ -15,4 +16,13 @@
     justify-content: space-between;
     box-sizing: border-box;
   }
+}
+
+
+ .horizontal-line{
+  height: 1px;
+  width: 100%;
+  background-color: #DDDDDD;
+  border-radius: 50px;
+  overflow: hidden;
 }
