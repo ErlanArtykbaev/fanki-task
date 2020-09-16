@@ -11,14 +11,14 @@ const Block = (props) => {
       </div>
       <div className='content'>
         {props.children}
-        {
-          props.class!=='block-headline-title' ? 
-          <div className='more'>
-            {props.more}
-            <ArrowRightAltOutlinedIcon className='arrow' />
-          </div> : null
-        }
       </div>
+      {
+        props.class!=='block-headline-title' ? 
+        <div className='more'>
+          {props.more}
+          <ArrowRightAltOutlinedIcon className='arrow' />
+        </div> : null
+      }
     </div>
   )
 }

@@ -16,26 +16,173 @@
 
 .small-block{
   width: 320px;
-  height: 280px;
+  font-size: 14px;
+  box-sizing: border-box;
   @include blocksTitle();
   .content{
     background-color: white;
-    border: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
     box-sizing: border-box;
-    border-radius: 0px 0px 6px 6px;
+    display: flex;
+    flex-direction: column;
+    .slider{
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      height: 170px;
+      .img{
+        width: 24px;
+        height: 24px;
+      }
+      // fist box
+      p{
+        text-align: center;
+        margin: 58px 8px;
+        span{
+          padding: 3px 8px;
+          background-color: #FFEEE6;
+          color: #FF4C00;
+          font-weight: bold;
+          border-radius: 6px;
+        }
+      }
+      //there is the new box with events
+      .event{
+        box-sizing: border-box;
+        margin: 34px auto;
+        .calendar{
+          width: 40px;
+          height: 40px;
+          border: 1px solid #DDDDDD;
+          box-sizing: border-box;
+          border-radius: 8px;
+          overflow: hidden;
+          margin: 0 auto;
+          justify-content: space-between;
+          .month{
+            background-color: #DE2F2F;
+            color: white;
+            text-align: center;
+          }
+          .day{
+            text-align: center;
+          }
+        }
+        .date-type-event{
+          font-size: 13px;
+          color: #616061;
+          margin-top: 10px;
+        }
+        .event-exact{
+          margin-top: 26px;
+        }
+      }
+      //there is knowledge block
+      .knowledge{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        .book{
+          width: 48px;
+          margin: auto;
+          margin-bottom: 7px;
+          background-blend-mode: color, normal;
+        }
+        p{
+          margin: 0;
+        }
+      }
+    }
+    .radios{
+      @include flexCenter();
+      margin-bottom: 18px;
+      .radio{
+        margin: 5px;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: #DDDDDD;
+        &.active{
+          background-color: #FF4C00;
+        }
+      }
+    }
   }
   .more{
     padding: 10px 22px;
     display: flex;
     align-items: center;
-    border-top: 1px solid #DDDDDD;
+    border-radius: 0px 0px 6px 6px;
     color: #FF4C00;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 13px;
+    background-color: white;
     .arrow{
       margin-left: 20px;
       color: #FF4C00 !important;
     }
   }
+}
+
+.news{
+  width: 660px;
+  font-size: 14px;
+  box-sizing: border-box;
+  @include blocksTitle();
+  .content{
+    background-color: white;
+    border-bottom: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  .more{
+    padding: 10px 22px;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 0px 6px 6px;
+    color: #FF4C00;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: white;
+    .arrow{
+      margin-left: 20px;
+      color: #FF4C00 !important;
+    }
+  }
+
+}
+
+.notifications-block{
+  width: 320px;
+  font-size: 14px;
+  box-sizing: border-box;
+  @include blocksTitle();
+  .content{
+    background-color: white;
+    border-bottom: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  .more{
+    padding: 10px 22px;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 0px 6px 6px;
+    color: #FF4C00;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: white;
+    .arrow{
+      margin-left: 20px;
+      color: #FF4C00 !important;
+    }
+  }
+
 }

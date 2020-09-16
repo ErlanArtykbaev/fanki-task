@@ -1,9 +1,13 @@
 .home{
   flex: 0.83;
-  height: 150vh;
   .three-blocks{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+  }
+  .news-notifications{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
   }
 }
