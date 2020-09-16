@@ -21,25 +21,25 @@ const FilterStaff = () => {
         type: 'all',
         title: 'Все',
         count: 12,
-        line: 'green'
+        line: 'green-line'
       },
       {
         type: 'vacation',
         title: 'В отпуске',
         count: 10,
-        line: 'blue'
+        line: 'blue-line'
       },
       {
         type: 'dayOff',
         title: 'Отгул',
         count: 6,
-        line: 'yellow'
+        line: 'yellow-line'
       },
       {
         type: 'ill',
         title: 'Больничный',
         count: 9,
-        line: 'red'
+        line: 'red-line'
       }
     ])
 

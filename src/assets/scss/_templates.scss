@@ -43,3 +43,13 @@
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
   border-radius: 6px;
 }
+
+@mixin likes {
+  box-sizing: border-box;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50px;
+  height: 24px;
+}

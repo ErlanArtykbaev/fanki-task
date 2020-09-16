@@ -49,19 +49,19 @@
       .type{
         @include flexCenter();
       }
-      .green{
+      .green-line{
         @include line();
         background-color: green;
       }
-      .blue{
+      .blue-line{
         @include line();
         background-color: blue;
       }
-      .red{
+      .red-line{
         @include line();
         background-color: red;
       }
-      .yellow{
+      .yellow-line{
         @include line();
         background-color: yellow;
       }
