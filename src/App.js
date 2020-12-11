@@ -13,7 +13,7 @@ function App() {
         <div className='sidebar-pages'>
           <Sidebar />
           <Switch>
-            <Route path='/' exact>
+            <Route path='/'>
               <Home />
             </Route>
           </Switch>

@@ -41,31 +41,31 @@ const Sidebar = () => {
         />
         <Item
           class='item'
-          to='/s'
+          to='/sw'
           icon={calendar} 
           title='Календарь'
         />
         <Item
           class='item'
-          to='/s'
+          to='/sa'
           icon={book} 
           title='База знаний'
         />
         <Item
           class='item'
-          to='/s'
+          to='/sq'
           icon={bookOpen} 
           title='Новости'
         />
         <Item
           class='item'
-          to='/s'
+          to='/so'
           icon={checkmark} 
           title='Задачи'
         />
         <Item
           class='item'
-          to='/s'
+          to='/sp'
           icon={chats} 
           title='Чаты'
         />
@@ -79,43 +79,43 @@ const Sidebar = () => {
       <div className='items'>
         <Item
           class='item'
-          to='/s'
+          to='/sm'
           icon={trending} 
           title='Статистика компании'
         />
         <Item
           class='item'
-          to='/s'
+          to='/sn'
           icon={copy} 
           title='Структура компании'
         />
         <Item
           class='item'
-          to='/s'
+          to='/sb'
           icon={people} 
           title='Сотрудники'
         />
         <Item
           class='item'
-          to='/s'
+          to='/sc'
           icon={book} 
           title='База знаний'
         />
         <Item
           class='item'
-          to='/s'
+          to='/sd'
           icon={bookOpen} 
           title='Новости'
         />
         <Item
           class='item'
-          to='/s'
+          to='/ss'
           icon={settings} 
           title='Настройки'
         />
         <Item
           class='item'
-          to='/s'
+          to='/spq'
           icon={layers} 
           title='Служба поддержки'
         />
