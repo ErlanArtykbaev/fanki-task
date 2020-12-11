@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fanki-task/static/css/main.715b0bbc.chunk.css",
-    "main.js": "/fanki-task/static/js/main.40a74167.chunk.js",
-    "main.js.map": "/fanki-task/static/js/main.40a74167.chunk.js.map",
+    "main.js": "/fanki-task/static/js/main.8b51ca3d.chunk.js",
+    "main.js.map": "/fanki-task/static/js/main.8b51ca3d.chunk.js.map",
     "runtime-main.js": "/fanki-task/static/js/runtime-main.a12f0e06.js",
     "runtime-main.js.map": "/fanki-task/static/js/runtime-main.a12f0e06.js.map",
     "static/js/2.013fae19.chunk.js": "/fanki-task/static/js/2.013fae19.chunk.js",
     "static/js/2.013fae19.chunk.js.map": "/fanki-task/static/js/2.013fae19.chunk.js.map",
     "index.html": "/fanki-task/index.html",
-    "precache-manifest.ea0b11385af90cedda4d4c2856b59178.js": "/fanki-task/precache-manifest.ea0b11385af90cedda4d4c2856b59178.js",
+    "precache-manifest.2dad171e25e82f87eb4b2e5b6bade6ea.js": "/fanki-task/precache-manifest.2dad171e25e82f87eb4b2e5b6bade6ea.js",
     "service-worker.js": "/fanki-task/service-worker.js",
     "static/css/main.715b0bbc.chunk.css.map": "/fanki-task/static/css/main.715b0bbc.chunk.css.map",
     "static/js/2.013fae19.chunk.js.LICENSE.txt": "/fanki-task/static/js/2.013fae19.chunk.js.LICENSE.txt",
@@ -37,6 +37,6 @@
     "static/js/runtime-main.a12f0e06.js",
     "static/js/2.013fae19.chunk.js",
     "static/css/main.715b0bbc.chunk.css",
-    "static/js/main.40a74167.chunk.js"
+    "static/js/main.8b51ca3d.chunk.js"
   ]
 }

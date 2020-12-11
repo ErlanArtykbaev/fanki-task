@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "57a1ce37cc0a35cf35e2294734a3e6bc",
+    "revision": "12ea278296ac55906740250bad4972eb",
     "url": "/fanki-task/index.html"
   },
   {
-    "revision": "829fae084e7fb3186863",
+    "revision": "88648bb3760182b0cb56",
     "url": "/fanki-task/static/css/main.715b0bbc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fanki-task/static/js/2.013fae19.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "829fae084e7fb3186863",
-    "url": "/fanki-task/static/js/main.40a74167.chunk.js"
+    "revision": "88648bb3760182b0cb56",
+    "url": "/fanki-task/static/js/main.8b51ca3d.chunk.js"
   },
   {
     "revision": "c26e5cbf1141efe351c2",

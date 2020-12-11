@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fanki-task/precache-manifest.ea0b11385af90cedda4d4c2856b59178.js"
+  "/fanki-task/precache-manifest.2dad171e25e82f87eb4b2e5b6bade6ea.js"
 );
 
 self.addEventListener('message', (event) => {
