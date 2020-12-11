@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/fanki-task/static/css/main.715b0bbc.chunk.css",
+    "main.js": "/fanki-task/static/js/main.321cda37.chunk.js",
+    "main.js.map": "/fanki-task/static/js/main.321cda37.chunk.js.map",
+    "runtime-main.js": "/fanki-task/static/js/runtime-main.a12f0e06.js",
+    "runtime-main.js.map": "/fanki-task/static/js/runtime-main.a12f0e06.js.map",
+    "static/js/2.013fae19.chunk.js": "/fanki-task/static/js/2.013fae19.chunk.js",
+    "static/js/2.013fae19.chunk.js.map": "/fanki-task/static/js/2.013fae19.chunk.js.map",
+    "index.html": "/fanki-task/index.html",
+    "precache-manifest.79cc5f7313917c7e41608e378ca80be2.js": "/fanki-task/precache-manifest.79cc5f7313917c7e41608e378ca80be2.js",
+    "service-worker.js": "/fanki-task/service-worker.js",
+    "static/css/main.715b0bbc.chunk.css.map": "/fanki-task/static/css/main.715b0bbc.chunk.css.map",
+    "static/js/2.013fae19.chunk.js.LICENSE.txt": "/fanki-task/static/js/2.013fae19.chunk.js.LICENSE.txt",
+    "static/media/Smile.svg": "/fanki-task/static/media/Smile.288297ba.svg",
+    "static/media/avatar.svg": "/fanki-task/static/media/avatar.e63f9d1f.svg",
+    "static/media/book-open.svg": "/fanki-task/static/media/book-open.e9616442.svg",
+    "static/media/book.svg": "/fanki-task/static/media/book.6461167e.svg",
+    "static/media/calendar.svg": "/fanki-task/static/media/calendar.417fe29b.svg",
+    "static/media/checkmark-circle-2.svg": "/fanki-task/static/media/checkmark-circle-2.522dd4dd.svg",
+    "static/media/chevron-left.svg": "/fanki-task/static/media/chevron-left.67c4eb0f.svg",
+    "static/media/chevron-right.svg": "/fanki-task/static/media/chevron-right.e1deec2c.svg",
+    "static/media/copy.svg": "/fanki-task/static/media/copy.bf7423fe.svg",
+    "static/media/fanki-active.svg": "/fanki-task/static/media/fanki-active.374d8c9a.svg",
+    "static/media/flash.svg": "/fanki-task/static/media/flash.79ce52bd.svg",
+    "static/media/image-8.svg": "/fanki-task/static/media/image-8.26458546.svg",
+    "static/media/layers.svg": "/fanki-task/static/media/layers.2531c1f5.svg",
+    "static/media/lion.svg": "/fanki-task/static/media/lion.f556e7da.svg",
+    "static/media/message-circle.svg": "/fanki-task/static/media/message-circle.7e6348de.svg",
+    "static/media/news-img.png": "/fanki-task/static/media/news-img.54f17a87.png",
+    "static/media/people.svg": "/fanki-task/static/media/people.a00dad45.svg",
+    "static/media/question-mark-circle.svg": "/fanki-task/static/media/question-mark-circle.68d9e8df.svg",
+    "static/media/settings.svg": "/fanki-task/static/media/settings.674ee71d.svg",
+    "static/media/trending-up.svg": "/fanki-task/static/media/trending-up.a8d4dfdf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a12f0e06.js",
+    "static/js/2.013fae19.chunk.js",
+    "static/css/main.715b0bbc.chunk.css",
+    "static/js/main.321cda37.chunk.js"
+  ]
+}
